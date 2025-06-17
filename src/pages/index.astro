@@ -1,6 +1,7 @@
 ---
 import Home from '../components/sections/Hero.jsx';
-import Nav from '../components/sections/Navigation.jsx'
+import Nav from '../components/sections/Navigation.jsx';
+import About from '../components/sections/About.jsx';
 
 import Layout from '../layouts/Layout.astro';
 
@@ -11,4 +12,5 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
 	<Nav client:load/>
 	<Home client:load />
+	<About client:visible />
 </Layout>

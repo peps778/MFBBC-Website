@@ -19,10 +19,12 @@ export default function Home() {
     <div className="bg-white">
 
       {/* Hero Section */}
-      <main className="relative isolate px-6 pt-32 pb-24 sm:pt-40 lg:px-8 bg-gradient-to-b from-white to-gray-50">
-        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+      <main
+        className="relative isolate px-6 pt-32 pb-24 sm:pt-40 lg:px-8 bg-[url('./images/hero-bg.png')] bg-cover bg-center bg-no-repeat"
+      >
+        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center backdrop-blur-smp-6 rounded-xl">
           <div className="relative z-10">
-            <img src="src/assets/Church.png" alt="Church Building" className="rounded-xl shadow-lg" />
+            <img src="/images/Church.png" alt="Church Building" className="rounded-xl shadow-lg" />
           </div>
           <div className="text-gray-800">
             <h1 className="text-4xl sm:text-5xl font-bold leading-snug">
