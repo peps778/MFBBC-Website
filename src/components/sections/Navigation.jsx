@@ -21,7 +21,7 @@ export default function Home() {
       <header className="absolute inset-x-0 top-0 z-50 max-">
         <nav className="flex items-center justify-between px-6 py-4 lg:px-8" aria-label="Global">
           <div className="flex items-center gap-2 lg:flex-1">
-           <img src={`${import.meta.env.BASE_URL}images/Logo.png`} alt="Church Logo" className="w-10 h-10 rounded-full" />
+            <img src="public/images/Logo.png" alt="Church Logo" className="w-10 h-10 rounded-full" />
             <span className="font-semibold text-sm sm:text-base">
               MAAO Fellowship <br className="hidden sm:block" />
               Baptist Bible Church
