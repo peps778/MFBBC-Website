@@ -1,5 +1,7 @@
 ---
-import Home from '../components/Hero.jsx';
+import Home from '../components/sections/Hero.jsx';
+import Nav from '../components/sections/Navigation.jsx'
+
 import Layout from '../layouts/Layout.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -7,5 +9,6 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
+	<Nav client:load/>
 	<Home client:load />
 </Layout>

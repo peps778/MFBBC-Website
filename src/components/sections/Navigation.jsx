@@ -16,12 +16,12 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <>
       {/* Header */}
-      <header className="absolute inset-x-0 top-0 z-50">
+      <header className="absolute inset-x-0 top-0 z-50 max-">
         <nav className="flex items-center justify-between px-6 py-4 lg:px-8" aria-label="Global">
           <div className="flex items-center gap-2 lg:flex-1">
-            <img src="src/assets/Logo.png" alt="Church Logo" className="w-10 h-10 rounded-full" />
+            <img src="public/images/Logo.png" alt="Church Logo" className="w-10 h-10 rounded-full" />
             <span className="font-semibold text-sm sm:text-base">
               MAAO Fellowship <br className="hidden sm:block" />
               Baptist Bible Church
@@ -54,7 +54,7 @@ export default function Home() {
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full max-w-sm bg-white p-6">
             <div className="flex items-center justify-between">
-              <img src="/logo.png" alt="Church Logo" className="h-8 w-8 rounded-full" />
+              <img src="public/images/Logo.png" alt="Church Logo" className="h-8 w-8 rounded-full" />
               <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -84,30 +84,6 @@ export default function Home() {
           </DialogPanel>
         </Dialog>
       </header>
-
-      {/* Hero Section */}
-      <main className="relative isolate px-6 pt-32 pb-24 sm:pt-40 lg:px-8 bg-gradient-to-b from-white to-gray-50">
-        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative z-10">
-            <img src="src/assets/Church.png" alt="Church Building" className="rounded-xl shadow-lg" />
-          </div>
-          <div className="text-gray-800">
-            <h1 className="text-4xl sm:text-5xl font-bold leading-snug">
-              Welcome to MAAO <br />
-              <span className="text-gray-700">Fellowship Baptist Bible Church</span>
-            </h1>
-            <p className="mt-6 italic text-gray-600 text-lg">
-              "Rooted in the Word. Growing in Faith. Serving with Love."
-            </p>
-            <p className="mt-4 text-base text-gray-700 leading-relaxed">
-              “But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now
-              and for ever. Amen.”
-              <br />
-              <span className="mt-1 block font-medium">— 2 Peter 3:18, KJV</span>
-            </p>
-          </div>
-        </div>
-      </main>
-    </div>
+    </>
   )
 }
