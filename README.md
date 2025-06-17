@@ -1,48 +1,42 @@
-# Astro Starter Kit: Basics
+# MAAO Fellowship Baptist Bible Church Website
 
-```sh
-npm create astro@latest -- --template basics
-```
+This is the official single-page website of **MAAO Fellowship Baptist Bible Church**, designed to inform, inspire, and reach both members and the community. Built with **Astro**, **React**, and **Tailwind CSS**, and styled with a **clean white layout** and **bold accent colors** like electric blue and gold.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ✨ Live Features
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- 🏛️ Hero section with background image, church name, and featured verse
+- 📖 Mission, Vision, and Who We Are — each with KJV Scripture
+- 🎥 Missions section with children's outreach video + caption
+- 👥 Officers section with pastor and youth leaders
+- 🕒 Worship schedule and prayer meeting time
+- 📜 Footer with contact info and Proverbs 22:6 (KJV)
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🎨 Design Overview
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **Header:** Clean white background, logo left-aligned, gold "Worship" button
+- **Colors:**
+  - Electric Blue: `#007BFF` (links, accents)
+  - Worship Button: Bright Yellow-Gold (`#FFC107`)
+  - Backgrounds: White and soft grays
+  - Text: `#4F4F4F` for body, black for headings
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- **Fonts:** Rounded, modern sans-serif (e.g., Poppins or system UI)
+- **Images:** Transparent logo and hero images centered on the church building
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## 🔧 Tech Stack
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- [Astro](https://astro.build/) – Static Site Framework
+- [React](https://reactjs.org/) – UI Components
+- [Tailwind CSS](https://tailwindcss.com/) – Styling
+- [GitHub Pages](https://pages.github.com/) – Free Hosting
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📂 File Structure
+
